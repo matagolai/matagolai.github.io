@@ -17,8 +17,17 @@ body {
 }
 
 .nav-link {
-  font-size: 1.5em !important;
+  font-size: 1.3em !important;
   margin: 0.7em;
+  color: rgb(96, 141, 51, 0.5) !important;
+}
+
+.nav-link:hover {
+  color: rgb(96, 141, 51) !important;
+}
+
+.link-active {
+  color: rgb(96, 141, 51) !important;
 }
 
 .carousel-inner img {
@@ -100,7 +109,7 @@ body {
   color: #3b5998;
 }
 .fa-instagram {
-  color: #517fa4;
+  color: #af43ad;
 }
 
 .fa-facebook:hover,
@@ -108,13 +117,9 @@ body {
   color: #d5d5d5;
 }
 
-footer {
-  padding-top: 2rem;
-}
-
 hr.light {
   border-top: 1px solid #d5d5d5;
-  width: 50%;
+  max-width: 250px;
   margin-top: 0.8rem;
   margin-bottom: 1rem;
 }
