@@ -6,6 +6,7 @@ body {
   width: 100%;
   font-family: "Poppins", sans-serif;
   color: #222;
+  scroll-behavior: smooth;
 }
 
 .navbar {
@@ -23,11 +24,11 @@ body {
 }
 
 .nav-link:hover {
-  color: rgb(96, 141, 51) !important;
+  color: #336133 !important;
 }
 
 .link-active {
-  color: rgb(96, 141, 51) !important;
+  color: #336133 !important;
 }
 
 .navbar-brand img {
@@ -131,10 +132,7 @@ footer img {
 
 /*---Media Queries --*/
 
-@media (max-width: 599px) {
-  .carousel-indicators {
-    display: none;
-  }
+@media (max-width: 544px) {
   .display-4 {
     font-size: 170%;
   }
